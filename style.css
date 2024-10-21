@@ -1,0 +1,460 @@
+body {
+    font-family: Arial, sans-serif;
+}
+header {
+    background-color: #c5d8ad;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: white;
+}
+header .flower-left,
+header .flower-right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+}
+header .flower-left {
+    left: 20px;
+}
+header .flower-right {
+    right: 20px;
+}
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+nav a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+    font-size: 1.2em;
+    border: 1px dotted #333;
+    padding: 10px 20px;
+    display: inline-block;
+}
+section {
+    padding: 20px;
+    margin: 20px 0;
+    border-top: 1px solid #ccc;
+}
+h2 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #739e73;
+    font-family: 'Georgia', serif;
+    margin-bottom: 30px;
+    position: relative;
+    padding: 0 50px;
+}
+h2:before, h2:after {
+    content: "";
+    position: absolute;
+    width: 40%;
+    height: 1px;
+    background: #739e73;
+    top: 40%;
+}
+h2:before {
+    left: 0;
+}
+h2:after {
+    right: 0;
+}
+
+.catalogo, .ocasioes, .presentes, .endereco, .whatsapp, .sobrenos {
+    padding: 50px 0;
+}
+
+.horizontal-menu {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.horizontal-menu a {
+    color: #739e73;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.horizontal-menu a:hover {
+    text-decoration: underline;
+}
+
+.catalogo .tamanhos, .presentes .chocolates {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-top: 45px;
+}
+
+.catalogo .tamanhos div, .presentes .chocolates div {
+    flex: 1;
+}
+
+.catalogo .tamanhos .grande img {
+    width: 70%;
+}
+
+.catalogo .tamanhos .normal img {
+    width: 50%;
+}
+
+.catalogo .tamanhos .mini img {
+    width: 30%;
+}
+
+.ocasioes {
+    padding: 20px;
+}
+
+.ocasioes .descricao {
+text-align: center;
+font-size: 1.2em;
+margin-bottom: 20px;
+}
+
+.ocasiao {
+margin-bottom: 40px;
+}
+
+
+.ocasiao-grid {
+display: flex;
+justify-content: flex-start; 
+align-items: flex-start;
+gap: 20px;
+}
+
+.item {
+display: flex;
+align-items: center;
+gap: 50px; 
+}
+
+
+.item img {
+width: 100%;
+max-width: 200px;
+height: auto;
+border-radius: 10px;
+}
+
+.descricao-item {
+font-size: 1.2em;
+line-height: 1.6em;
+text-align: left;
+}
+
+.dupla {
+display: flex;
+justify-content: space-between;
+gap: 50px; 
+}
+
+.sub-ocasiao {
+width: 48%;
+}
+
+.sub-ocasiao h3 {
+font-size: 1.8em;
+color: #333;
+margin-bottom: 10px;
+text-align: left;
+}
+
+.sub-ocasiao .ocasiao-grid {
+justify-content: flex-start;
+}
+
+.presentes .categoria {
+    margin-bottom: 40px;
+}
+.presentes .categoria h3 {
+    font-size: 1.5em;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.presentes .grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.presentes .grid div {
+    flex-basis: 30%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.presentes .grid div img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    border-radius: 8px;
+}
+.presentes .grid div p {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #333;
+}
+
+
+.cosmeticos-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px; 
+}
+.cosmeticos-grid div {
+    flex-basis: 35%; 
+    text-align: center;
+}
+.cosmeticos-grid img {
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+    border-radius: 8px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+header {
+    background-color: #c5d8ad;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: white;
+}
+header .flower-left,
+header .flower-right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+}
+header .flower-left {
+    left: 20px;
+}
+header .flower-right {
+    right: 20px;
+}
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+nav a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+    font-size: 1.2em;
+    border: 1px dotted #333;
+    padding: 10px 20px;
+    display: inline-block;
+}
+section {
+    padding: 20px;
+    margin: 20px 0;
+    border-top: 1px solid #ccc;
+}
+h2 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #739e73;
+    font-family: 'Georgia', serif;
+    margin-bottom: 30px;
+    position: relative;
+    padding: 0 50px;
+}
+h2:before, h2:after {
+    content: "";
+    position: absolute;
+    width: 40%;
+    height: 1px;
+    background: #739e73;
+    top: 40%;
+}
+h2:before {
+    left: 0;
+}
+h2:after {
+    right: 0;
+}
+
+.catalogo, .ocasioes, .presentes, .endereco, .whatsapp, .sobrenos {
+    padding: 50px 0;
+}
+
+.horizontal-menu {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.horizontal-menu a {
+    color: #739e73;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.horizontal-menu a:hover {
+    text-decoration: underline;
+}
+
+.catalogo .tamanhos, .presentes .chocolates {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-top: 45px;
+}
+
+.catalogo .tamanhos div, .presentes .chocolates div {
+    flex: 1;
+}
+
+.catalogo .tamanhos .grande img {
+    width: 70%;
+}
+
+.catalogo .tamanhos .normal img {
+    width: 50%;
+}
+
+.catalogo .tamanhos .mini img {
+    width: 30%;
+}
+
+.ocasioes {
+    padding: 20px;
+}
+
+.ocasioes .descricao {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.ocasiao {
+    margin-bottom: 40px;
+}
+
+.ocasiao-grid {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.item img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.descricao-item {
+    font-size: 1.2em;
+    line-height: 1.6em;
+    text-align: left;
+}
+
+.dupla {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.sub-ocasiao {
+    width: 48%;
+}
+
+.sub-ocasiao h3 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.sub-ocasiao .ocasiao-grid {
+    justify-content: flex-start;
+}
+
+.presentes .categoria {
+    margin-bottom: 40px;
+}
+
+.presentes .categoria h3 {
+    font-size: 1.5em;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.presentes .grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.presentes .grid div {
+    flex-basis: 30%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.presentes .grid div img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.presentes .grid div p {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #333;
+}
+
+.cosmeticos-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.cosmeticos-grid div {
+    flex-basis: 35%;
+    text-align: center;
+}
+
+.cosmeticos-grid img {
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.whatsapp {
+    padding: 50px 0;
+    text-align: center;
+}
